@@ -1,0 +1,261 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"> <!-- EMOJI KUTUPHANE -->
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <title>Gain Site</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.scss">-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <style>
+    
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+
+    <div class="container clearfix">
+     
+        <div id="logo-box"> <!--logolarin yer aldigi kutucuk, header gibi dusunebiliriz-->
+        
+            
+            <a id="sol-logo" class="logo" style="text-decoration: none;" href="">
+                <img width="50px" src="gain logo.svg" alt="not found">
+            </a>
+        
+            <a id="gaincoinfiyat" class="logo" href="#"> 40.07$ </a>
+        
+        
+            <a id="gaincoin" class="logo" href="#">Gain Coin</a>
+        
+        
+            <!--------------BSC------------------->
+         
+            <a style="text-decoration: none;" href="https://bscscan.com" target="_blank">
+                <div id="bsc">BSC  <!--renk yazinin oldugu class veya id de degistirilebilir.-->
+                    <img id="bnb-logo" src="bnb.svg" alt="bnb logo not found">
+                    <!--<i class="fas fa-coins"></i>-->
+                </div>
+            </a>
+
+
+       
+     
+
+     <!------------ANA LOGO ve BASLIK---------------->
+        
+            <a href="#" id="anasayfa-baslik" class="logo text-uppercase">
+                <img id="anasayfa-logo" src="gain logo.svg" alt="logo not found">
+                Gain site
+            </a>
+ 
+        </div><!--logo box kapanis-->
+
+
+
+<!--TAGS ACILIR KAPANIR BUTON TOGGLE-->
+        <button id="toggle">Toggle</button> <!--Jquery ile yapildi-->
+<!-------------------TAGS------------------>
+
+    <div class="all-tags" style="display: none;"> <!-- display none css kisminda calismadi, burada yaptik. Ilk basta none yapmamin sebebi menunun sayfa acilisinda gorunmesini istememem.-->
+        <ul class="tags">
+            <li><a href="">Coin Oylama</a></li>
+            <li><a href="">Reklam</a></li>
+
+        </ul>
+        
+        <ul class="tags">
+
+            <li><a href="">Buy GainCoin</a></li>
+            <li><a href="">Trade </a></li>
+        </ul>
+        <br>
+    </div>
+
+
+
+
+
+
+
+
+    <!---------------WALLET CONNECT--------------->
+        <div id="wallet-sosyal-medya">
+                <input id="ConnectID" type="submit" value="Connect">
+            
+
+
+         <!-- SOSYAL MEDYA ICONLARI -->
+            
+            <div class="sosyal-medya">
+                <div class="twitter-icon">
+                    <a id="twitter-i" href=""><i class="fab fa-twitter"></i></a> <!-- BURADA a kismi ile renk degistiremedim, hoveri da etkileyemedim neden?(class ile, id ile degistirebildim) ustteki classlarla da degistiremedim?-->
+                </div>
+                <div class="telegram-icon">
+                    <a id="telegram-i" href=""><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <!--------------------------------------------------------------------->
+
+        </div><!--wallet ve sosyal medya bitis-->
+        
+    </div>
+
+</nav>
+
+
+    
+
+
+
+
+
+<!-------------------HR HR HR HR HR-------------------->
+<hr>
+
+
+<!----------------------HEADER------------------->
+<header>
+
+    <div class="container">
+
+
+    <!------------ REKLAM ----------->
+        <div id="reklam">
+            <a href="#" target="_blank">
+                <img id="reklam-img" class="img-fluid" src="reklam.JPG" alt="NOT FOUND" >
+            </a>
+        </div>
+
+    <!----------- SEARCH text ------->
+        <div id="search-text">
+            <form>
+                <input id="text" type="text" style="font-family: FontAwesome;" placeholder="&#xf002 Token Name & Adress..">
+            </form>
+        </div>
+            
+    <!-----------------SEARCH BUTTON------------------->
+        <div id="search-button">
+            <form>  <!--action="register.aspx"           vb gibi bi siteye yonlendirmesi icin formun icine yaziyoruz-->
+                <input type="submit" id="submit" value="Search"> <!-- onceden type="submit" idi-->
+            </form>
+        </div>
+
+
+
+
+   <!---------- MENU CUBUGU ------ ACILIR KAPANIR---------->
+        
+    <div class="menu-liste-div">
+        <ul>
+            <li><a id="fa-wallet" href=""><i class="fas fa-wallet"></i></a></li>
+
+            <li><a id="fa-home" href=""><i class="fas fa-home"></i></a></li>
+
+            <li><a id="fa-list-alt" href=""><i class="far fa-list-alt"></i></a></li>
+                
+            <li><a id="fa-chart-line" href=""><i class="fas fa-chart-line"></i></a></li>
+
+            <li>
+                <a id="fa-btc" href="https://www.binance.com/tr/trade/BTC_USDT?layout=pro&type=spot"><i class="fab fa-btc"></i></a>
+                <ul class="hidden">
+                    <li class="btc-alt-liste"><a href="">BTC AL</a></li>
+                    <li class="btc-alt-liste"><a href="">ETH AL</a></li>
+                    <li class="btc-alt-liste"><a href="">GACO AL</a></li>
+                </ul>
+            </li>         
+        </ul>
+    </div>
+
+
+
+<!-------------------------- TRADING VIEW ---------------------------------->
+
+
+<!-- IFRAME OLARAK ARATTIM INTERNETTE-->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div id="tradingview_79a5b"></div>
+    <div class="tradingview-widget-copyright">TradingView'den <a href="https://tr.tradingview.com/symbols/BTCUSDT/?exchange=BITBAY" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT Grafiği</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget
+    (
+    {
+        "width": 800,/*980*/
+        "height": 430,/*610*/
+        "symbol": "BITBAY:BTCUSDT",
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "dark",
+        "style": "1",
+        "locale": "tr",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "allow_symbol_change": true,
+        "container_id": "tradingview_79a5b"
+    }
+    );
+    </script>
+</div>
+<!-- TradingView Widget END -->
+
+
+
+
+
+
+
+
+    </div>
+
+</header>
+
+<script> 
+          
+    $(document).ready(function(){
+        $("#toggle").click(function(){           
+            $(".all-tags").fadeToggle("slow"); // bunu basta display:none; yaptik. yani bu gorunur olurken asagidaki gizleniyo
+            $("#anasayfa-baslik").fadeToggle("slow");   // bu gizlenirkende yukaridaki gorunur oluyor     
+        });  
+        
+        
+
+
+
+    });
+    
+    
+</script>
+
+
+
+
+
+<script src="script.js "></script>
+</body>
+
+</html>
